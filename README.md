@@ -13,6 +13,25 @@ npm start
 
 [http://localhost:3000](http://localhost:3000)
 
+### アクセスする
+
+``` bash
+# GET
+curl localhost:3000
+
+# POST
+curl -d "" localhost:3000
+
+# PUT
+curl localhost:3000/user/ -XPUT
+
+# DELETE
+curl localhost:3000/user/ -XDELETE
+
+```
+
+
+
 ## generatorを使う
 
 ``` bash
